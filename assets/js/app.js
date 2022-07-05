@@ -181,28 +181,32 @@ seeMoreLink.addEventListener("click", (e) => {
 
 const characters = [
 	{
-		name: "Harry",
+		first_name: "Harry",
 		last_name: "Potter",
 		house: "Gryffindor",
 		image: "http://hp-api.herokuapp.com/images/harry.jpg",
+		actor: "Daniel Radcliffe",
 	},
 	{
-		name: "Hermione",
+		first_name: "Hermione",
 		last_name: "Granger",
 		house: "Gryffindor",
 		image: "http://hp-api.herokuapp.com/images/hermione.jpeg",
+		actor: "Emma Watson",
 	},
 	{
-		name: "Ron",
+		first_name: "Ron",
 		last_name: "Weasley",
 		house: "Gryffindor",
 		image: "http://hp-api.herokuapp.com/images/ron.jpg",
+		actor: "Rupert Grint",
 	},
 	{
-		name: "Draco",
+		first_name: "Draco",
 		last_name: "Malfoy",
 		house: "Slytherin",
 		image: "http://hp-api.herokuapp.com/images/draco.jpg",
+		actor: "Tom Felton",
 	},
 ];
 
@@ -221,4 +225,4 @@ let userCardList = document.createElement("div");
 userCardList.innerHTML = charactersHTML;
 
 const section2 = document.querySelector(".about");
-section2.append(userCardList);
+// section2.append(userCardList);
